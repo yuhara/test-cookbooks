@@ -1,7 +1,7 @@
 wpdir = "/usr/bin"
 
 package "mysql" do
-	action :insatall
+	action :install
 end
 
 execute "wp-cli install" do
